@@ -256,8 +256,7 @@ export default function AIOptimizer({
                     ))}
                   </select>
                 </div>
-
-                <div className="space-y-1.5">
+    <div className="space-y-1.5">
                   <label className="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex justify-between">
                     <span>Your Draft Bullet Point</span>
                     <span className="text-indigo-600 cursor-pointer hover:underline" onClick={() => setBulletDraft("managed a database and resolved bottlenecks")}>
