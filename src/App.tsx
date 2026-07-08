@@ -315,7 +315,7 @@ export default function App() {
               <ArrowRight size={15} />
             </button>
 <a
-  href="/resume.pdf"
+  href="/madiha-resume.pdf"
   download
   className="bg-white text-slate-900 font-bold px-6 py-3 rounded-xl hover:bg-slate-200 transition"
 >
@@ -857,7 +857,7 @@ Expected Graduation: 2026
                     />
                   </div>
                   <div className="space-y-1.5">
-                    <label className="text-[10px] font-mono uppercase tracking-wider text-slate-400">Email Address</label>
+                    <label className="text-[10px] font-mono uppercase tracking-wider text-slate-300">Email Address</label>
                     <input 
                       type="email" 
                       required
