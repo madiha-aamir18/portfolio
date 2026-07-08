@@ -290,14 +290,14 @@ export default function App() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
             <span className="text-xs font-mono tracking-wider text-slate-300">
-              Available for remote junior roles &amp; internships
+           Open to Software Engineering Internships & Graduate Roles
             </span>
           </div>
 
           {/* Main Title Banner */}
           <div className="space-y-4">
             <h1 className="text-4xl sm:text-6xl font-sans font-extrabold tracking-tight text-white leading-[1.1] md:leading-[1.05]">
-              Madiha Aamir builds the <span className={`bg-gradient-to-r ${accentClasses.gradient} bg-clip-text text-transparent font-black`}>full stack</span>, end to end.
+              Hi, I'm Madiha Aamir <span className={`bg-gradient-to-r ${accentClasses.gradient} bg-clip-text text-transparent font-black`}></span>
             </h1>
             
             <p className="text-base sm:text-lg text-slate-400 leading-relaxed max-w-2xl font-normal pt-2">
@@ -314,7 +314,13 @@ export default function App() {
               <span>View projects</span>
               <ArrowRight size={15} />
             </button>
-
+<a
+  href="/resume.pdf"
+  download
+  className="bg-white text-slate-900 font-bold px-6 py-3 rounded-xl hover:bg-slate-200 transition"
+>
+Download Resume
+</a>
             <button
               onClick={() => scrollToSection('contact-section')}
               className="bg-slate-950 hover:bg-slate-900 text-slate-200 border border-slate-800/80 hover:border-slate-700 font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl flex items-center gap-2 transition-all cursor-pointer"
@@ -623,7 +629,7 @@ export default function App() {
         {/* SECTION 3: WORK HISTORY & EXPERIENCE */}
         <section id="experience-section" className="scroll-mt-24 space-y-8">
           <div className="space-y-2">
-            <span className={`text-xs font-mono uppercase tracking-widest ${accentClasses.text}`}>03. Industrial Exposure</span>
+            <span className={`text-xs font-mono uppercase tracking-widest ${accentClasses.text}`}>03. Professional Exposure</span>
             <h2 className="text-2xl sm:text-3xl font-sans font-bold tracking-tight text-white">Professional Experience</h2>
           </div>
 
@@ -690,7 +696,8 @@ export default function App() {
                     <p className="text-xs font-mono text-slate-400">Bahria University Karachi Campus</p>
                   </div>
                   <span className={`bg-amber-500/10 border border-amber-500/25 ${accentClasses.text} text-[10px] font-mono px-3 py-1 rounded-full`}>
-                    8th Semester
+                   Bachelor of Computer Science
+Expected Graduation: 2026
                   </span>
                 </div>
 
@@ -779,10 +786,10 @@ export default function App() {
         {/* SECTION 6: GET IN TOUCH CONTACT */}
         <section id="contact-section" className="scroll-mt-24 max-w-4xl mx-auto space-y-8 pb-10">
           <div className="space-y-2 text-center">
-            <span className={`text-xs font-mono uppercase tracking-widest ${accentClasses.text}`}>06. Initiate Connection</span>
+            <span className={`text-xs font-mono uppercase tracking-widest ${accentClasses.text}`}>06. Let's Work Together</span>
             <h2 className="text-2xl sm:text-3xl font-sans font-bold tracking-tight text-white">Get in Touch</h2>
             <p className="text-xs text-slate-400 max-w-lg mx-auto leading-relaxed">
-              Have a full-stack web project, a database schema question, or looking for an adaptive junior engineer? Send a direct message below.
+              I'm always interested in internships, entry-level software engineering roles, freelance projects, and collaborating on exciting ideas. Feel free to reach out through email or LinkedIn.
             </p>
           </div>
 
@@ -846,7 +853,7 @@ export default function App() {
                       placeholder="e.g. M. Rehman"
                       value={contactName}
                       onChange={(e) => setContactName(e.target.value)}
-                      className={`w-full bg-[#030712] border border-slate-900 rounded-xl p-3 text-xs text-white focus:outline-hidden ${accentClasses.borderFocus} ${accentClasses.ring} transition-all`}
+                      className={`w-full bg-slate-950 border border-slate-900 rounded-xl p-3 text-xs text-white focus:outline-hidden ${accentClasses.borderFocus} ${accentClasses.ring} transition-all`}
                     />
                   </div>
                   <div className="space-y-1.5">
@@ -919,7 +926,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-[11px]">
           <p>© 2026 Madiha Aamir. All rights reserved.</p>
           <p className="text-slate-600">
-            Handcrafted with React, Tailwind &amp; Motion. Zero AI slop.
+            Handcrafted with React, Tailwind &amp; Motion.Built with React • TypeScript • Tailwind CSS • Motion
           </p>
         </div>
       </footer>
