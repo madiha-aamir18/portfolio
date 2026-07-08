@@ -315,7 +315,7 @@ export default function App() {
               <ArrowRight size={15} />
             </button>
 <a
-  href="/madiha-resume.pdf"
+  href="/madiha-resume (3).pdf"
   download
   className="bg-white text-slate-900 font-bold px-6 py-3 rounded-xl hover:bg-slate-200 transition"
 >
